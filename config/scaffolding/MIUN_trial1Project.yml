@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MIUN_trial1Project
+  gitServerName: roti_github
+  gitUrl: https://github.com/Rohit-Tibarewal/MIUN_trial1Project
+  gitUsername: Rohit-Tibarewal
+  gitBranch: main
