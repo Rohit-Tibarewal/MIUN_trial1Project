@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/Rohit-Tibarewal/MIUN_trial1Project
   gitUsername: Rohit-Tibarewal
   gitBranch: main
+services:
+- serviceName: project.miun_trial1.integrations:Trial1Dev
+  packages:
+  - name: MIUN_trial1Project
+    version: "1.0"
+- serviceName: pub.utils:generateUUID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
